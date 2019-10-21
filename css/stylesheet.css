@@ -9,7 +9,7 @@
 .body_content{
     
 background-image:url("../img/layer.png")  ;
-height: auto;
+height: 1000px;
 width: 100%;
 
 
@@ -190,13 +190,13 @@ label[for='bt_menu']:hover{
     cursor: pointer;
     float: left;
     
-      border-bottom:10px;
+      
    }
     .lupa{
    
    margin-left: 167px;
     margin-top: -40px;
-    width:127px;
+    width:30px;
     height: 40px;
     background-color:#0b5ee3;
     padding: 0px;
@@ -226,16 +226,17 @@ label[for='bt_menu']:hover{
 
   }
   .entrar{
+      margin-top: -4%;
       width: 150px;
       height: 7%;
-        margin-left: 78%;
+        margin-left: 0px;
        background-color:#0b5ee3 ;
         float: left;
         cursor: pointer;
-        line-height: 40px;
+        
         list-style: none;
         text-align: center;
-         position: fixed;
+        position: fixed;
         
         
   }
@@ -246,7 +247,7 @@ label[for='bt_menu']:hover{
 	color: black;
     font-size: 20px;
     list-style: none;
-    
+    line-height: 100%;
 	
 
   }
@@ -259,7 +260,7 @@ label[for='bt_menu']:hover{
     float: left;
    background-color:#0b5ee3;
     height: 400px;
-    width:55%;
+    width:700px;
     margin-top: 2%;
     
 

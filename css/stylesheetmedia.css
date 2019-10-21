@@ -62,9 +62,9 @@ label[for='bt_menu']{
 }
 .lupa{
     float: left;
-    margin-top: -240px;
+    margin-top: -247px;
    position: fixed;
-    margin-left: 60%;
+    margin-left: 72%;
     height: 30px;
     width: 30px;
     
@@ -89,9 +89,10 @@ label[for='bt_menu']{
     
 }
 .entrar{
-    margin-top: 0px;
-    margin-left:67%;
-    z-index: 2;
+    margin-top: -7px;
+    margin-left:78%;
+    z-index: 1;
+    
     background-color: #0b5ee3;
     width:15%;
     border-radius: 5px;
