@@ -1,0 +1,80 @@
+@media (max-width: 800px) {
+#logo{
+	display: block;
+	margin-left: 60px;
+	margin-top:-50px;
+	width: 60%;
+	height: 50px;
+
+
+	
+}	
+.menu{
+    user-select: none;
+	height: auto;
+	width:100%;
+	user-select: none;
+	z-index: 99;
+	margin-left:-100%;
+	transition:all .4s;
+	}
+label[for='bt_menu']{
+	display:block;
+	}
+.menu>ul{
+	margin-left:0;
+	}
+
+	
+	
+.menu ul li{
+	height:auto;
+	width:100%;
+	float:none;
+	font-size: 20px;
+	}
+.menu ul ul{
+	position:static;
+	overflow:hidden;
+	max-height:0;
+	transition:all .4s;
+	}
+.menu ul li:hover ul{
+	height:400;
+	max-height:400px;
+	transition:all .4s;
+	}
+#bt_menu:checked ~ .menu{
+	margin-left:0;
+	}
+.logo_3d{
+    display: none;
+    
+}	
+.search_bar{
+    display: none;
+}
+#field_search{
+   display: none;
+
+   
+
+}
+.lupa{
+    float: left;
+    margin-top: -260px;
+  
+    margin-left: 94%
+    
+  
+     
+   
+   
+}
+.field_lupa{
+    display: block;
+}
+   
+/* fechamento do @media */
+}
+
