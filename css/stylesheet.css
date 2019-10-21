@@ -9,7 +9,7 @@
 .body_content{
     
 background-image:url("../img/layer.png")  ;
-height: 1000px;
+height: auto;
 width: 100%;
 
 
@@ -259,7 +259,7 @@ label[for='bt_menu']:hover{
     float: left;
    background-color:#0b5ee3;
     height: 400px;
-    width:700px;
+    width:55%;
     margin-top: 2%;
     
 

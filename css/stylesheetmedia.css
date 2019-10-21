@@ -3,7 +3,7 @@
 	display: block;
 	margin-left: 60px;
 	margin-top:-50px;
-	width: 60%;
+	width: 45%;
 	height: 50px;
 
 
@@ -12,7 +12,7 @@
 .menu{
     user-select: none;
 	height: auto;
-	width:100%;
+	width:60%;
 	user-select: none;
 	z-index: 1;
 	margin-left:-100%;
@@ -62,11 +62,12 @@ label[for='bt_menu']{
 }
 .lupa{
     float: left;
-    margin-top: -290px;
+    margin-top: -240px;
    position: fixed;
-    margin-left: 93%;
-    height: 40px;
+    margin-left: 60%;
+    height: 30px;
     width: 30px;
+    
     
   
      
@@ -84,18 +85,20 @@ label[for='bt_menu']{
     margin-top:50px;
    
 }
-.section2{
-    margin-top: ;
+
+    
 }
 .entrar{
-    margin-top: -50px;
-    margin-left:77%;
+    margin-top: 0px;
+    margin-left:67%;
     z-index: 2;
-    background-color: white;
+    background-color: #0b5ee3;
     width:15%;
     border-radius: 5px;
     padding: 5px;
     line-height: 100%;
+    float: left;
+
    
 }
 .entrar:hover{
