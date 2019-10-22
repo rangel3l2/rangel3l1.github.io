@@ -12,7 +12,7 @@
 .menu{
     user-select: none;
 	height: auto;
-	width:60%;
+	width:100%;
 	user-select: none;
 	z-index: 1;
 	margin-left:-100%;
@@ -77,23 +77,11 @@ label[for='bt_menu']{
 .field_lupa{
     display: block;
 }
-.carousel_box{
-     float: left;
-    width: 98%;
-    height: 300px;
-    margin-left: 0px;
-    margin-top:50px;
-   
-}
-
-    
-}
 .entrar{
     margin-top: -7px;
     margin-left:78%;
     z-index: 1;
-    
-    background-color: #0b5ee3;
+  background-color: #0b5ee3;
     width:15%;
     border-radius: 5px;
     padding: 5px;
@@ -103,7 +91,24 @@ label[for='bt_menu']{
    
 }
 .entrar:hover{
-    background-color:#0b5ee3;
+    background-color:#0b5ee3;}
+.carousel_box{
+     float: left;
+    width: 98%;
+    height: 300px;
+    margin-left: 0px;
+    margin-top:50px;
+   
+}
+.produtos{
+	float: left;
+	margin-top: 400px;
+	margin-left: 400px;}
+
+
+    
+
+
 
    
 /* fechamento do @media */
