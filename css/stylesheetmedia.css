@@ -97,18 +97,40 @@ label[for='bt_menu']{
     width: 98%;
     height: 300px;
     margin-left: 0px;
-    margin-top:50px;
+    margin-top:150px;
    
 }
 .produtos{
 	float: left;
-	margin-top: 400px;
-	margin-left: 400px;}
+	margin-top: 500px;
+	margin-left: 20%;}
 
+.body_content2{
+	margin-top: 20px;
+	width:98% ;
 
-    
+}
+.news_content1{
+	width: 60%;
+	text-align: center;
+	margin-left: 20%;
 
+}
+#image_enem{
+    width:100%;
+     height: 180px;
+}
 
+.news_content2{
+  width: 60%;
+   height: 180px;
+   margin-left: 20%;
+
+}
+.video_title{
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
 
    
 /* fechamento do @media */
