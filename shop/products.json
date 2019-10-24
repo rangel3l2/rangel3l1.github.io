@@ -1,0 +1,33 @@
+{
+	"products" : [
+		{
+			"name" : "Caneca- inquebrável",
+			"price" : "20.00",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" }
+			],
+			"image" : "img/caneca.png",
+			"description" : "testada oficialmente "
+		},
+		{
+			"name" : "Bone de careca",
+			"price" : "20.00",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Blue,Red" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "img/bone.png",
+			"description" : "Para refrescar a cabeça e esconder o penteado escroto"
+		},
+		{
+			"name" : "Camiseta-profissional",
+			"price" : "20.00",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" }
+			],
+			"image" : "img/camiseta.png",
+			"description" : "Para momentos em que bate aquele sol"
+		}
+	]
+}
