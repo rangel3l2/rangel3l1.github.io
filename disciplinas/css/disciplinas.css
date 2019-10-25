@@ -270,8 +270,11 @@ label[for='bt_menu']:hover{
     margin-top:15px;
      }
    #myCarousel{
-     height:100% ;
-     width: 100%;
+     float: left;
+     height:400px ;
+     width: 600px;
+     margin-top: 20px;
+     margin-left: 50px;
      
     
    
@@ -282,9 +285,8 @@ label[for='bt_menu']:hover{
 
 }
 .carousel-inner{
-    height: 100%;
-    width: 60%;
-   
+     height:600px ;
+     width: 400px;
 
 
 
@@ -292,7 +294,7 @@ label[for='bt_menu']:hover{
 }
 .carousel_image{
       height: 400px;
-    width:700px;
+    width:600px;
      
 
 }
@@ -302,7 +304,7 @@ label[for='bt_menu']:hover{
   background-color: #61ede8;
   width: 285px;
   margin-left: 65%;
-  margin-top: 120px;
+  margin-top: -800px;
   float: left;
   position: absolute;
   text-align: center;

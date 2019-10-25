@@ -471,15 +471,16 @@ label[for='bt_menu']:hover{
     width: 100%;}
     .video_content{
   float: left;
-  width: 50%;;
+  width: 48%;;
+  margin-left: 20px;
   
   
  }
  
 .video_content2{
 float: left;
-
- width: 50%;
+ 
+ width: 48%;
 
                 }
  
