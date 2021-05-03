@@ -390,7 +390,7 @@ function buttonActions(button,i) {
     button1.style.backgroundImage="url('./static/img/setaLeft.png')"
     console.log(selectGlobalImg,'select global img button');
     button1.style.Top='500px'
-    button1.style.left='250px'
+    button1.style.left='10%'
     //botão seta esquerda
     console.log('botao esquerda ',selectGlobalImg);
   
@@ -473,7 +473,7 @@ function buttonActions(button,i) {
       
       createImage()
       toCreateSquares()
-       createTakeId()
+       createPosition()
      
     }
   }
@@ -520,7 +520,7 @@ function buttonActions(button,i) {
     
 
       toCreateSquares()
-      createTakeId()
+      createPosition()
      //Id(squares)
     }
     
@@ -553,7 +553,7 @@ function buttonActions(button,i) {
     
     
     toCreateSquares()
-    createTakeId()
+    createPosition()
  
 
    }
@@ -619,7 +619,7 @@ function buttonActions(button,i) {
         button7.style.display='none'
         button9.innerHTML='Ver Imagem'
       
-       interval= setInterval(automaticMove,500)
+       interval= setInterval(automaticMove,1)
        
        if(cont<1){
         toMessImg()
@@ -908,7 +908,8 @@ function moveLogic(event,empty,moveLeft,moveRight,moveTop,moveDown){
  {
  
   contador( )
- takeId()
+  toStopMove()
+ toShowPosition()
 
     empty.appendChild(event.target)
     aux=empty.id
@@ -1146,7 +1147,7 @@ function automaticMove(){
               else{
                   toMessImg()
                  saveMoves()
-                 resulted()
+                 toStopMove()
                 
               }
               //////////////////////////////////////////
@@ -1158,8 +1159,8 @@ function automaticMove(){
               wayToRun(empty)
              // console.log(elemCurrentIndex,'elemento corrente index right');             
               contador()
-             takeId()
-              resulted()
+             toShowPosition()
+              toStopMove()
           }
           
           if(randomMoves==2 &&canMoveUp() && i>width-1 ){
@@ -1182,8 +1183,8 @@ function automaticMove(){
              // console.log(elemCurrentIndex,'elemento corrente index up');
             
               contador()
-             takeId()
-              resulted()
+             toShowPosition()
+              toStopMove()
           }
           
           if(randomMoves==3 &&canMoveDown() && i<(width*height)-1){
@@ -1203,8 +1204,8 @@ function automaticMove(){
             //  console.log(elemCurrentIndex,'elemento corrente index down');
             
               contador()
-              resulted()
-              takeId()
+              toStopMove()
+              toShowPosition()
           }
       }
   }
@@ -1341,7 +1342,7 @@ function wayToRun(empty){
   }
 }
 
-function createTakeId(){
+function createPosition(){
   let divIdAtual = document.createElement('div')
   container.appendChild(divIdAtual)
   divIdAtual.id='posição'
@@ -1364,7 +1365,7 @@ function createTakeId(){
 }
 
 
- function takeId(){
+ function toShowPosition(){
   let  divIdAtual=document.querySelector('#posição')
   
    divIdAtual.style.display='block'
@@ -1383,7 +1384,7 @@ function createTakeId(){
         }
      
      //console.log(squads);
-   //  console.log(sort[i],'sort em takeid');
+   //  console.log(sort[i],'sort em toShowPosition');
      if(sort[i]==undefined){
        console.log(i,'i em taked id');
        divIdAtual.innerHTML=`Posição:${row},${col}`
@@ -1397,14 +1398,14 @@ function createTakeId(){
  
 
  }
-function resulted() {
+function toStopMove() {
 let cont2=0
   for (i = 0; i < (width * height)-1; i++) {
-      console.log(sort);
+      console.log(sort,'resultado');
 
       if (sort[i]<sort[i+1]) {
           cont2++
-          console.log(cont2);
+          console.log(cont2,'log cont 2');
           
           if(cont2>=13){
 
@@ -1457,23 +1458,7 @@ function solveGame(){
   //sentido de movimento horario
   
 }
-var links = document.getElementsByTagName('img');
 
-
-
-
-for (var i=0; i<links.length; ++i) {
-
-   console.log(links[i].src);
-
-   var partsArr = links[i].src.split('/');
-   console.log(partsArr);
-
-   var imageName = partsArr[partsArr.length -1];
-   console.log(imageName);
-
-
-}
  
 
  
