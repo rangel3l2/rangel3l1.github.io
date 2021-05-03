@@ -1,0 +1,343 @@
+body{
+   
+    margin:0;
+   
+    
+    
+}
+#container{
+    
+    width: 100%;
+
+    float: left;
+    height: 100vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.allEffect{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    
+   
+
+}
+.effect{
+    max-height: 30px;
+}
+.squares{
+    width: 80px;
+    height: 80px;
+   
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.grid .squares img{
+    width: 100%;
+    height: 100%;
+}
+.grid{
+    display: none;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    margin-left: 35%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+   
+    
+  
+
+    
+
+}
+.Botões{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 200px;
+   
+    
+
+}
+#contador{
+    margin-left: 35%;
+  
+   
+    width: 320px;
+    height: 30px;
+    line-height:300%;
+    text-align: center;
+    color:rgb(219, 232, 241);
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+    border-radius: 12px;
+    font-size: 20px;
+    display: none;
+
+}
+@media screen and (max-width: 947px) {
+    #contador{
+        margin-left: 42%;
+    }
+    
+
+}
+@media screen and (max-width: 768px) {
+    #contador{
+        margin-left: 55%;
+        width: 250px;
+    }
+
+}
+#posição{
+    margin-left: 35%;
+    margin-top: 20px;  
+   
+    width: 320px;
+    height: 30px;
+    line-height:300%;
+    text-align: center;
+    color:rgb(219, 232, 241);
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+    border-radius: 12px;
+    font-size: 20px;
+    display: none;
+   
+
+}
+@media screen and (max-width: 947px) {
+    #posição{
+        margin-left: 48%;
+    }
+
+
+}
+@media screen and (max-width: 768px) {
+    #posição{
+        margin-left: 55%;
+        width: 250px;
+    }
+}
+#titleGame{
+    width:400px;
+    max-width: 600px;
+    left: 35%;
+    position: relative;
+    height: 20px;
+    font-size: 20px;
+
+ 
+    
+}
+.designGame{
+    height: 20px;
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:   0px -6px 0 #212121,  
+                   0px -6px 0 #212121,
+                   0px  6px 0 #212121,
+                   0px  6px 0 #212121,
+                  -6px  0px 0 #212121,  
+                   6px  0px 0 #212121,
+                  -6px  0px 0 #212121,
+                   6px  0px 0 #212121,
+                  -6px -6px 0 #212121,  
+                   6px -6px 0 #212121,
+                  -6px  6px 0 #212121,
+                   6px  6px 0 #212121,
+                  -6px  18px 0 #212121,
+                   0px  18px 0 #212121,
+                   6px  18px 0 #212121,
+                   0 19px 1px rgba(0,0,0,.1),
+                   0 0 6px rgba(0,0,0,.1),
+                   0 6px 3px rgba(0,0,0,.3),
+                   0 12px 6px rgba(0,0,0,.2),
+                   0 18px 18px rgba(0,0,0,.25),
+                   0 24px 24px rgba(0,0,0,.2),
+                   0 36px 36px rgba(0,0,0,.15);
+}
+#painelControle{
+    font-size:  30px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom:35px;
+    display: none;
+   
+}
+
+/* todos botoes */
+.button{
+    font-family: 'Luckiest Guy';
+  
+    margin-top: 0px;
+    width: 200px;
+    border-radius: 12px;
+    font-size: 18px;
+    color:rgb(219, 232, 241);
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+    cursor: pointer;
+    
+}
+/* botao start */
+#button0{
+   
+    position: relative;
+    left: 300px;
+    top: 100px;
+    border-radius: 12px;
+    font-size: 30px;
+
+
+}
+#button0:hover{
+background-color:yellow;
+top: 98px;
+font-size: 30px;
+}
+/* botao setaleft */
+#button1{
+    
+    position: relative;
+    left: 270px;
+    top: 40px;
+    width: 50px;
+    border: 0;
+    height: 40px;
+    
+    background-position-y:-3px;
+    border-radius: 10px;
+    display: none;
+
+   
+    
+}
+#button1:hover,#button2:hover{
+    border-color: rgb(rgba(255, 0, 0, 0.281), rgba(0, 128, 0, 0.479), rgb(93, 93, 161));
+    border: 1px solid;
+    cursor: pointer;
+  
+}
+/* botao setaRight */
+#button2{
+   
+    position: relative;
+    top: 45px;
+    left: 430px;
+    width: 50px;
+    height: 40px;
+    border: 0;
+    background-size: cover;
+    border-radius: 10px;
+   display: none;
+    
+
+}
+
+/* div onde fica a imagem */
+#divImage{
+    text-align: center;
+   margin-left: 520px;
+   margin-top: 150px;  
+
+    width:150px;
+    height: 200px;
+    display: none;
+  
+}
+/* imagem de introdução */
+#picIntro{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    filter:grayscale(.7);
+   
+    
+  
+
+   
+}
+#picIntro:hover{
+    filter:grayscale(0)
+}
+#divImage:hover{
+    height: 205px;
+    width: 155px;
+    border-radius: 0px;
+    transition: ease-in 0.3s;
+  
+  
+}
+/* texto inferior a imagem */
+#subImg{
+    font-size: 30px;
+    
+    width: 300px;
+    margin-left: -70px;
+    color:rgb(219, 232, 241);
+     text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px
+    
+  
+
+    
+}
+#subImg:hover{
+    margin-top: -2px;
+    transition: ease-in 0.2s;
+
+}
+/* botao facil */
+#button3{
+   margin-bottom: 5px; 
+   font-size: 25px;
+   display: none;
+
+}
+/* botao normal */
+#button4{
+    margin-bottom: 5px; 
+    font-size: 25px;
+    display: none;
+}
+/* botao dificil */
+#button5{
+    margin-bottom: 5px; 
+    font-size: 25px;
+    display: none;
+    
+}
+#button3:hover, #button4:hover, #button5:hover{
+    background-color: yellow;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+/* novo jogo */
+#button6{
+    display: none;
+  margin-top: -100px;
+  height: 30px;
+  display: none;
+}
+#button7{
+    margin-top: -65px;
+   height: 30px;
+   display: none;
+ 
+}
+#button8{
+    margin-top: -33px;
+   height: 30px;
+   display:none;
+ 
+}
+#button9{
+    display: none;
+}
+
+
+
