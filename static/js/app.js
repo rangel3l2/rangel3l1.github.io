@@ -733,7 +733,7 @@ function toMessImg(){
           img.id=`p${row}${col}`
             
           if(cont<1){
-              sort[i]=getSuffle[i] 
+              sort=getSuffle.slice() 
               img.src=`./static/img/my_Image${SelectImg}[${getSuffle[i]}].jpg` 
               console.log(sort[i]);
               
@@ -1407,7 +1407,7 @@ let cont2=0
           cont2++
           console.log(cont2,'log cont 2');
           
-          if(cont2>=13){
+          if(cont2>=(width*height)-2){
 
               clearInterval(interval)   
               interval=null
