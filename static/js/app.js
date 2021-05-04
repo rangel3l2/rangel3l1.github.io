@@ -1146,9 +1146,9 @@ function automaticMove(){
                   toMessImg()
               }
               else{
-                  toMessImg()
+                 
                  saveMoves()
-                 toStopMove()
+                 
                 
               }
               //////////////////////////////////////////
@@ -1169,7 +1169,7 @@ function automaticMove(){
                   toMessImg()
               }
               else{
-                  toMessImg()
+                 
                  saveMoves()
                 
               }
@@ -1193,7 +1193,7 @@ function automaticMove(){
                       toMessImg()
                   }
                   else{
-                      toMessImg()
+                    
                      saveMoves()
                     
                   }
