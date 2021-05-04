@@ -1136,6 +1136,7 @@ function automaticMove(){
               wayToRun(empty)
              // console.log(elemCurrentIndex,'elemento corrente index left');
             contador()
+            toStopMove()
               
               
           }
